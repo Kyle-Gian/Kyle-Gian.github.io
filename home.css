@@ -1,0 +1,9 @@
+body {background-color: skyblue;}    
+header{color: white;}
+footer
+{
+    text-align: center;
+    background-color: slategray;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
