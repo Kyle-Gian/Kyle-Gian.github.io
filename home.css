@@ -7,3 +7,12 @@ footer
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
+img 
+{
+    max-width: 100%;
+    height: auto;
+}
+.ProfilePicture
+{
+    
+}
