@@ -12,7 +12,10 @@ img
     max-width: 100%;
     height: auto;
 }
-.ProfilePicture
+@include media-breakpoint-down(md) 
 {
-    
+    .ProfilePicture
+    {
+        display: block;
+    }
 }
