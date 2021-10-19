@@ -3,8 +3,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
+    
     <title>Kyle Gian - Programming Portfolio</title>
 </head>
 
@@ -72,11 +73,32 @@
     </div>
     <div class="card-body">
       <h5 class="card-title">Demon King</h5>
+ 
+
         <p class="card-text">I am currently working on my major project for my 2nd year at AIE, this team comprised of 2 Designers, 3 Artists and 2 Programmers. This game is built using the Unity Game Engine and is my first experience with networking. 
             Demon King is an Online Multiplayer King of the Hill type game, where players need to hold the title of the Demon King for the longest time. The premise of the game is to gain power by consuming other players or AI, the mechanics used to create this
             experience had to be carefully planned due to the Networking aspect. This is a current work in progress and if you would like to find out more, please don't hesitate to contact me.<br></p>
         <div class="d-flex justify-content-center">
             <img src="Images/DemonKing.png" class="mx-auto" alt="Image showing Demon King Title" height="300" width="1600">  <br>
+        </div>
+        <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/aX2pVTMoyDs" data-bs-target="#Modal1">
+            <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
+        </button>
+        <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+
+                    <div class="modal-body">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aX2pVTMoyDs" id="DemonKing"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -89,45 +111,49 @@
 </div>
 
 <div class="card-group" >
-
   <div class="card" style="background-color:rgb(199, 199, 199);">
-      <img src="Images/PhysicsGame.png" class="card-img-top" alt="Image showing the Positivitea Gameplay" height="200" width= "450">
+      <img src="Images/ThinkingInsideTheBox.png" class="card-img-top" alt="Image showing the Positivitea Gameplay" height="200" width= "450">
       <div class="card-body">
-          <h5 class="card-title">Ragdoll Physics Runner</h5>
-          <p class="card-text" >I created this small physics game to demonstrate the use of joints and Ragdoll effect using the Unity engine.
-              It is a small obstacle course that involves basic puzzles. This project spanned over a couple of assessments at AIE, which were Computer Graphics and Physics for games.
-              Some objects such as the wrecking balls or the puzzle cubes have shaders added to themwhich give different effects. An example of this would be the wrecking balls which 
-              on impact show a sheen. This was implemented with the use of HLSL shader language.
-              If you would like to view this project on Github 
+          <h5 class="card-title">2 Day Game Jam -Thinking Inside the Box</h5>
+
+          <p class="card-text" >This was created as apart of a 2 day game jam with the theme of "Isolated Control". This was a team project consisting of 2 designers,
+              3 artists and 2 programmers. The user needs to use Telekenises to move objects with the correct color and shape into the corresponding shapes. <br>
+              
+              <br>If you would like to view this project on Github or Youtube 
               please click the icon.
           </p>
-          <a href="https://github.com/Kyle-Gian/Physics-Ragdoll-Unity"> <img src="Images/GitHub_Mark.png" alt="Git Hub" height="32" width= "32"> </a>
 
+          <a href="https://github.com/Kyle-Gian/Physics-Ragdoll-Unity"> <img src="Images/GitHub_Mark.png" alt="Git Hub" height="32" width= "32"> </a>
+          <a href="https://elricmilton.itch.io/thinking-inside-the-box"> <img src="Images/itchio-logo-black.png" alt="Git Hub" height="40" width="150"></a>
+
+          <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Ik2s-FFrHSc" data-bs-target="#Modal4">
+              <img src="Images/youtube.png" alt="Youtube Icon" height="80" width="80">
+          </button>
+          <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+
+
+                      <div class="modal-body">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                          </button>
+                          <!-- 16:9 aspect ratio -->
+                          <div class="ratio ratio-16x9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ik2s-FFrHSc" id="ThinkingBox"  allowscriptaccess="always" allow="autoplay"></iframe>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
   </div>
-
-<div class="card" style="background-color:rgb(199, 199, 199);">
-    <img src="Images/BehaviourTree.png" class="card-img-top" alt="Visual Graph showing the editor window in Unity" height="200" width="450">
-    <div class="card-body">
-        <h5 class="card-title">Node Based Behaviour Tree AI Unity Tool</h5>
-        <p class="card-text">
-            This project was done during my 2nd year at AIE and is a Unity package that can be dragged into a project.
-            The user can create a behaviour tree using a node based visual graph within the Unity engine. The user can easily use the script templates given "Node Check" & "New Behaviour"
-            given to them to create any type of AI they require for their project. I will be looking to adding to this project in the future.
-            A feature I am looking to add is a visual debugging tool, which shows which nodes and edges are active in runtime.
-            If you would like to view this project on Github
-            please click the icon or click the Unity icon to download the Unity package and add to your own project.
-        </p>
-        <a href="https://github.com/Kyle-Gian/Node-Based-Behavior-Tree"> <img src="Images/GitHub_Mark.png" alt="Git Hub" height="32" width="32"> </a>
-        <a href="NodeTree.unitypackage" download> <img src="Images/Unity_Icon.png" alt="Git Hub" height="32" width="32"> </a>
-    </div>
-
-</div>
+    
 
         <div class="card" style="background-color:rgb(199, 199, 199);">
             <img src="Images/Positivitea.png" class="card-img-top" alt="Positivitea Logo" height="200" width="450">
             <div class="card-body">
                 <h5 class="card-title">Positivitea</h5>
+                
                 <p class="card-text">
                     This is the first game I created as apart of a team called "Positivitea".
                     I learned to work as apart of a game development team and learn new technologies and the intricacies of game development.
@@ -137,6 +163,23 @@
                 <p>If you would like to experience the world of Positivitea, click This Button!!</p>
 
                 <a href="https://elricmilton.itch.io/positivitea"> <img src="Images/itchio-logo-black.png" alt="Git Hub" height="40" width="150"></a>
+                <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/i5ruUQHKRYQ" data-bs-target="#modal2">
+                    <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
+                </button>
+                <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                                </button>
+                                <!-- 16:9 aspect ratio -->
+                                <div class="ratio ratio-16x9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5ruUQHKRYQ" id="Positivitea"  allowscriptaccess="always" allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -144,6 +187,7 @@
         <img src="Images/ProjectileMayhem.png" class="card-img-top" alt="Projectile Mayhem In game Image" height="200" width="450">
         <div class="card-body">
             <h5 class="card-title">Projectile Mayhem (VR)</h5>
+
             <p class="card-text">
                 Projectile Mayhem is a VR game that involves a shooting gallery where the user has a gun and loadable projectiles, that can be shot at targets to complete the challenges and gain points.
                 This project was created by 3 Designers, 3 artists and 2 programmers, it was done over a 4 week period and was our first time developing a VR game. It was built using the Unity Engine.
@@ -151,9 +195,46 @@
             <p>If you would like to experience the world of Projectile Mayhem, click This Button!!</p>
 
             <a href="https://alex-smits.itch.io/projectile-mayhem"> <img src="Images/itchio-logo-black.png" alt="Git Hub" height="40" width="150"></a>
+            <button type="button" class="btn  video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/dGONuTlxmU4" data-bs-target="#Modal3">
+                <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
+            </button>
+            <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                            </button>
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dGONuTlxmU4" id="ProjectileMayhem"  allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    
+    <div class="card" style="background-color:rgb(199, 199, 199);">
+        <img src="Images/BehaviourTree.png" class="card-img-top" alt="Visual Graph showing the editor window in Unity" height="200" width="450">
 
+        <div class="card-body">
+            <h5 class="card-title">Node Based Behaviour Tree AI Unity Tool</h5>
+            <p class="card-text">
+                This project was done during my 2nd year at AIE and is a Unity package that can be dragged into a project.
+                The user can create a behaviour tree using a node based visual graph within the Unity engine. The user can easily use the script templates given "Node Check" & "New Behaviour"
+                given to them to create any type of AI they require for their project. I will be looking to adding to this project in the future.
+                A feature I am looking to add is a visual debugging tool, which shows which nodes and edges are active in runtime.
+                If you would like to view this project on Github
+                please click the icon or click the Unity icon to download the Unity package and add to your own project.
+            </p>
+            <a href="https://github.com/Kyle-Gian/Node-Based-Behavior-Tree"> <img src="Images/GitHub_Mark.png" alt="Git Hub" height="32" width="32"> </a>
+            <a href="NodeTree.unitypackage" download> <img src="Images/Unity_Icon.png" alt="Git Hub" height="32" width="32"> </a>
+        </div>
+
+    </div>
     </div>
     <hr>
 

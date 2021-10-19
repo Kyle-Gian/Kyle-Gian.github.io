@@ -19,3 +19,17 @@ img
         display: block;
     }
 }
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+
+    text-align: center;
+
+}
+.modal-content iframe {
+    margin: 0 auto;
+    display: block;
+}
