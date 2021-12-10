@@ -13,19 +13,25 @@ footer{
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
-
+  .carousel .slide {
+    max-height: 50% !important;
+  }
+  
+.carousel .item{
+      top: 0;
+      left: 0;
+      width: 75%;
+      max-height: 400px !important;
+    }
+.project-carousel-img{
+    max-height: 400px !important;
+}
 img 
 {
     max-width: 100%;
     height: auto;
 }
-@include media-breakpoint-down(md) 
-{
-    .ProfilePicture
-    {
-        display: block;
-    }
-}
+
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
