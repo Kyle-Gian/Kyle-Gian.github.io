@@ -31,7 +31,9 @@ img
     max-width: 100%;
     height: auto;
 }
-
+.modal-body{
+    color: black;
+}
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
