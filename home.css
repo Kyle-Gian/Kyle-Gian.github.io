@@ -1,8 +1,22 @@
 body{
-    background-color: skyblue;
+    background-color: grey;
     position: relative;
 } 
-   
+
+#projectCarousel .carousel-item  {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 50vh;
+}
+#projectCarousel{
+    align-self: center;
+    width: 90%;
+}
+#carouselImg{
+    height: 50vh;
+}
+
 header{
     color: white;
 }
@@ -17,15 +31,6 @@ footer{
     max-height: 50% !important;
   }
   
-.carousel .item{
-      top: 0;
-      left: 0;
-      width: 75%;
-      max-height: 400px !important;
-    }
-.project-carousel-img{
-    max-height: 400px !important;
-}
 img 
 {
     max-width: 100%;

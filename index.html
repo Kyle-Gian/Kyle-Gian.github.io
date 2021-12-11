@@ -114,210 +114,247 @@
 
         <h2 class = "text-center " id="scrollspyHeading2">Projects</h2>
 
-        <!-- Start of Carousel -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="d-flex justify-content-center text-center w-100 ShowcasePiece">
 
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <!-- Start of Carousel -->
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
 
-            </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
 
-            <div class="carousel-inner"> <!--Carousel Inner Start-->
-                <div class="carousel-item active">
-                    <img src="Images/ProjectileMayhem.png" id = "project-carousel-img" class="d-inline w-100 project-carousel-img"  alt="Projectile Mayhem Game image">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Projectile Mayhem VR</h5>
-
-                        <div class="container text-center">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li>Game:</li>
-                                        <li>VR</li>
-                                        <li>Built in Unity</li>
-                                        <li>C# Programming</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li>My Roles:</li>
-                                        <li>Projectile Reloading/Inventory</li>
-                                        <li>Checklist that tracks completed objectives</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Itch IO link-->
-                        <a href="https://alex-smits.itch.io/projectile-mayhem"> <img src="Images/itchio-logo-black.png" alt="Git Hub" height="40" width="150"></a>
-                        <!--Pop out Youtube Video-->
-                        <button type="button" class="btn  video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/dGONuTlxmU4" data-bs-target="#Modal3">
-                            <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
-                        </button>
-
-                        <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Projectile Mayhem Trailer</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                              <span aria-hidden="true"></span>
-                                            </button>
-                                        </div>
-                                        <!-- 16:9 aspect ratio -->
-                                        <div class="ratio ratio-16x9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dGONuTlxmU4" id="ProjectileMayhem"  allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>
-                                        </div>
-                                        <h4>About:</h4>
-                                        <p> 
-                                            The game is a short VR game that allows a player to have fun shooting a variety of projects at targets such as Balls,
-                                            Darts and a Watermelon. The objective is to complete the checklist and score as many points as possible.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
-                <div class="carousel-item"> <!--Carousel Item Start-->
-                    <img src = "Images/BehaviourTree.png" id = "project-carousel-img" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Node Based Behaviour Tree</h5>
-                        <p>
-                            <ul>
-                                <li>Tool:</li>
-                                <li>Editor Window Tool</li>
-                                <li>Built in Unity</li>
-                                <li>C# Programming</li>
-                            </ul>
-                            <ul>
-                                <li>My Roles:</li>
-                                <li>Create a window that Displays Nodes added by User.</li>
-                                <li>Transfer logic from Unity Editor to runtime.</li>
-                                <li>Templates for basic AI.</li>
-                                <li>Simple Scripts that use inheritance to create behaviours or logic checks.</li>
-                            </ul>
-                        </p>
-                        <a href="https://github.com/Kyle-Gian/Node-Based-Behavior-Tree"> <img src="Images/GitHub_Mark.png" alt="Git Hub" height="32" width="32"> </a>
-                        <a href="NodeTree.unitypackage" download> <img src="Images/Unity_Icon.png" alt="Git Hub" height="32" width="32"> </a>
-                    </div>
-                </div> <!--Carousel Item End-->
+                <div class="carousel-inner "> <!--Carousel Inner Start-->
+                    <div class="carousel-item active">
+                        <h4>Projectile Mayhem VR</h4>
 
-                <div class="carousel-item"><!--Carousel Item Start-->
-                    <img src="Images/ThinkingInsideTheBox.png"  id = "project-carousel-img" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Thinking Inside the Box</h5>
-                        <p>
-                            <ul>
-                                <li>Game Jam:</li>
-                                <li>1st person Short puzzle game</li>
-                                <li>Built in Unity</li>
-                                <li>C# Programming</li>
-                            </ul>
-                            <ul>
-                                <li>My Roles:</li>
-                                <li>Working with the Artists to get the animations working.</li>
-                                <li>Object rotation.</li>
-                            </ul>
-                        </p>
-                        <!--Pop out Youtube Video Start-->
-                        <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Ik2s-FFrHSc" data-bs-target="#Modal4">
-                            <img src="Images/youtube.png" alt="Youtube Icon" height="80" width="80">
-                        </button>
+                        <img src="Images/ProjectileMayhem.png"  class="d-inline w-100 " id="carouselImg"  alt="Projectile Mayhem Game image">
+                        <div class="carousel-caption d-none d-md-block">
 
-                        <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-  
-                                    <div class="modal-body">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Thinking Inside the Box Trailer</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                              <span aria-hidden="true"></span>
-                                            </button>
+                            <!--Pop out Youtube Video-->
+                            <button type="button" class="btn  video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/dGONuTlxmU4" data-bs-target="#Modal3">
+                                <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
+                            </button>
+
+                            <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Projectile Mayhem Trailer</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"></span>
+                                                </button>
+                                            </div>
+                                            <!-- 16:9 aspect ratio -->
+                                            <div class="ratio ratio-16x9">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dGONuTlxmU4" id="ProjectileMayhem"  allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>
+                                            </div>
+                                            <h4>About:</h4>
+                                            <p> 
+                                                The game is a short VR game that allows a player to have fun shooting a variety of projects at targets such as Balls,
+                                                Darts and a Watermelon. The objective is to complete the checklist and score as many points as possible.
+                                            </p>
+
+                                            <div class="container text-center">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Game:</h5>
+                                                        <ul>
+                                                            <li>VR</li>
+                                                            <li>Built in Unity</li>
+                                                            <li>C# Programming</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5>My Roles:</h5>
+                                                        <ul>
+                                                            <li>Projectile Reloading/Inventory</li>
+                                                            <li>Checklist that tracks completed objectives</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--Itch IO link-->
+                                            <a href="https://alex-smits.itch.io/projectile-mayhem"> <img src="Images/itchio-logo-black.png" alt="Git Hub" height="40" width="150"></a>
                                         </div>
-                                        <!-- 16:9 aspect ratio -->
-                                        <div class="ratio ratio-16x9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ik2s-FFrHSc" id="ThinkingBox"  allowscriptaccess="always" allow="autoplay"allowfullscreen></iframe>
-                                        </div>
-
-                                        <h4>About:</h4>
-                                        <p> 
-                                            Thinking inside the box was a 2 day game jam that I had done with a team of 7. It is a small puzzle game 
-                                            where the player must match the corresponging pieces by color and shape then push them into the correct space 
-                                            using telekinesis.
-                                        </p>
                                     </div>
                                 </div>
                             </div>
-                        </div> <!--Pop out Youtube Video End-->
+                        </div>
                     </div>
-                </div>  <!--Carousel Item End-->
 
-                <div class="carousel-item"> <!--Carousel Item Start-->
-                    <img src="Images/Positivitea.png" id = "project-carousel-img"class="d-block w-100" alt="Positivitea Logo" >
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Positivitea</h5>
-                        <p>
-                            <ul>
-                                <li>Game:</li>
-                                <li>3rd person Stealth</li>
-                                <li>Built in Unity</li>
-                                <li>C# Programming</li>
-                            </ul>
-                            <ul>
-                                <li>My Roles:</li>
-                                <li>Projectile Reloading/Inventory</li>
-                                <li>Checklist that tracks completed objectives</li>
-                                <li>C# Programming</li>
-                            </ul>
-                        </p>
-                        <a href="https://elricmilton.itch.io/positivitea"> <img src="Images/itchio-logo-black.png" alt="Git Hub" ></a>
+                    <div class="carousel-item"> <!--Carousel Item Start-->
+                        <h4>Node Based Behaviour Tree</h4>
+                        <img src = "Images/BehaviourTree.png" id="carouselImg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!--Pop out Youtube Video Start-->
+                            <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Ik2s-FFrHSc" data-bs-target="#Modal5">
+                                <img src="Images/youtube.png" alt="Youtube Icon" height="80" width="80">
+                            </button>
 
-                        <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/i5ruUQHKRYQ" data-bs-target="#modal2"><!--Pop out Youtube Video Start-->
-                            <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
-                        </button>
-                        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title">Positivitea Trailer</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                              <span aria-hidden="true"></span>
-                                            </button>
+                            <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Node Based BehaviourTree:</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"></span>
+                                                </button>
+                                            </div>
+                                            <h4>About:</h4>
+                                            <p> 
+                                            A small 3rd Person stealth game were the player must restore happiness to the world by giving out tea, but be careful
+                                            and don't get caught. When the tea has been placed the color will return to that area and once all the tea has been placed
+                                            the world will be happy again.
+                                            </p>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h5>Tool:</h5>
+                                                    <ul>
+                                                        <li>Editor Window Tool</li>
+                                                        <li>Built in Unity</li>
+                                                        <li>C# Programming</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h5>Role:</h5>
+                                                    <ul>
+                                                        <li>Create a window that Displays Nodes added by User.</li>
+                                                        <li>Transfer logic from Unity Editor to runtime.</li>
+                                                        <li>Templates for basic AI.</li>
+                                                        <li>Simple Scripts that use inheritance to create behaviours or logic checks.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="https://github.com/Kyle-Gian/Node-Based-Behavior-Tree"> <img src="Images/GitHub_Mark.png" alt="Git Hub" height="32" width="32"> </a>
+                                            <a href="NodeTree.unitypackage" download> <img src="Images/Unity_Icon.png" alt="Git Hub" height="32" width="32"> </a>
                                         </div>
-                                        <!-- 16:9 aspect ratio -->
-                                        <div class="ratio ratio-16x9">
-                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5ruUQHKRYQ" id="Positivitea"  allowscriptaccess="always" allow="autoplay"allowfullscreen></iframe>
-                                        </div>
-                                        <h4>About:</h4>
-                                        <p> 
-                                           A small 3rd Person stealth game were the player must restore happiness to the world by giving out tea, but be careful
-                                           and don't get caught. When the tea has been placed the color will return to that area and once all the tea has been placed
-                                           the world will be happy again.
-                                        </p>
                                     </div>
                                 </div>
-                            </div>
-                        </div><!--Pop out Youtube Video End-->
-                    </div>
-                </div><!--Carousel Item End-->
-            </div> <!--Carousel Inner End-->
+                            </div><!--Pop out Youtube Video End-->
+                        </div>
+                    </div> <!--Carousel Item End-->
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div> <!--Carousel End-->
+                    <div class="carousel-item"><!--Carousel Item Start-->
+                        <h4>Thinking Inside The Box</h4>
+                        <img src="Images/ThinkingInsideTheBox.png"  id="carouselImg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <!--Pop out Youtube Video Start-->
+                            <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Ik2s-FFrHSc" data-bs-target="#Modal4">
+                                <img src="Images/youtube.png" alt="Youtube Icon" height="80" width="80">
+                            </button>
+
+                            <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+    
+                                        <div class="modal-body">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Thinking Inside the Box Trailer</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"></span>
+                                                </button>
+                                            </div>
+                                            <!-- 16:9 aspect ratio -->
+                                            <div class="ratio ratio-16x9">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ik2s-FFrHSc" id="ThinkingBox"  allowscriptaccess="always" allow="autoplay"allowfullscreen></iframe>
+                                            </div>
+
+                                            <h4>About:</h4>
+                                            <p> 
+                                                Thinking inside the box was a 2 day game jam that I had done with a team of 7. It is a small puzzle game 
+                                                where the player must match the corresponging pieces by color and shape then push them into the correct space 
+                                                using telekinesis.
+                                            </p>
+
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <h5>Tool:</h5>
+                                                    <ul>
+                                                        <li>1st person Short puzzle game</li>
+                                                        <li>Built in Unity</li>
+                                                        <li>C# Programming</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <h5>Role:</h5>
+                                                    <ul>
+                                                        <li>Working with the Artists to get the animations working.</li>
+                                                        <li>Adding the ability to rotate objects with controls.</li>
+                                                        <li>The check to make sure the corresponding objects match the shape/color.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!--Pop out Youtube Video End-->
+                        </div>
+                    </div>  <!--Carousel Item End-->
+
+                    <div class="carousel-item"> <!--Carousel Item Start-->
+                        <h4>Positivitea</h4>
+                        <img src="Images/Positivitea.png" id="carouselImg" class="d-block w-100" alt="Positivitea Logo" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/i5ruUQHKRYQ" data-bs-target="#modal2"><!--Pop out Youtube Video Start-->
+                                <img src="Images/youtube.png" alt="Git Hub" height="80" width="80">
+                            </button>
+                            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Positivitea Trailer</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true"></span>
+                                                </button>
+                                            </div>
+                                            <!-- 16:9 aspect ratio -->
+                                            <div class="ratio ratio-16x9">
+                                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5ruUQHKRYQ" id="Positivitea"  allowscriptaccess="always" allow="autoplay"allowfullscreen></iframe>
+                                            </div>
+                                            <h4>About:</h4>
+                                            <p> 
+                                            A small 3rd Person stealth game were the player must restore happiness to the world by giving out tea, but be careful
+                                            and don't get caught. When the tea has been placed the color will return to that area and once all the tea has been placed
+                                            the world will be happy again.
+                                            </p>
+                                            <div class="container text-center">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Game:</h5>
+                                                        <ul>
+                                                            <li>3rd person Stealth</li>
+                                                            <li>Built in Unity</li>
+                                                            <li>C# Programming</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5>My Roles:</h5>
+                                                        <ul>
+                                                            <li>Activating the Colour shader when the object is placed</li>
+                                                            <li>Moving AI with patrolling and Chasing</li>
+                                                            <li>Liasing with Game designers to add new mechanics</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <a href="https://elricmilton.itch.io/positivitea"> <img src="Images/itchio-logo-black.png"  height="80" width="100"alt="Git Hub" ></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--Pop out Youtube Video End-->
+                        </div>
+                    </div><!--Carousel Item End-->
+                </div> <!--Carousel Inner End-->
+
+            </div> <!--Carousel End-->
+        </div>
 
         <hr>
         <h2 class = "text-center " id="scrollspyHeading3">Skills</h2>
