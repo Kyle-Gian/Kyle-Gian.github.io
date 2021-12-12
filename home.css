@@ -20,10 +20,15 @@ body{
 header{
     color: white;
 }
+#headerBackground{
+    background: url(Images/container_background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
 
+}
 footer{
     text-align: center;
-    background-color: slategray;
     padding-bottom: 0em;
     margin-bottom: 0em;
 }
