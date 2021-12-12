@@ -72,6 +72,10 @@ img
 .ProjectCards{
     align-self: center;
 }
+
+#aboutMeTextField{
+    max-width: 800px;
+}
 .MainProjectIMG{
     width: 100%;
     height: 70%;
