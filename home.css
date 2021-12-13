@@ -17,9 +17,7 @@ body{
     height: 50vh;
 }
 
-header{
-    color: white;
-}
+
 #headerBackground{
     background: url(Images/container_background.png);
   background-repeat: no-repeat;
@@ -34,8 +32,29 @@ footer{
 }
   .carousel .slide {
     max-height: 50% !important;
-  }
-  
+}
+
+.carousel-control-prev{
+    background: none;
+    background-color: transparent;
+    border: transparent;
+}
+.carousel-control-next{
+    background: none;
+    background-color: transparent;
+    border: transparent;
+}
+.carousel-control-prev-icon {
+    height: 10%;
+    width: 40%;
+    background-image: url("Images/previous.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("Images/next-button.png");
+    height: 10%;
+    width: 40%;
+}
 img 
 {
     max-width: 100%;

@@ -118,7 +118,7 @@
     <div class="d-flex justify-content-center text-center w-100 ShowcasePiece">
 
         <!-- Start of Carousel -->
-        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="projectCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
 
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#projectCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -315,7 +315,7 @@
                         <p>
                             Find Out More...
                         </p>
-                        <button type="button" class="btn video-btn" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/i5ruUQHKRYQ" data-bs-target="#modal2"><!--Pop out Youtube Video Start-->
+                        <button type="button" class="btn video-btn" data-bs-toggle="modal" data-interval="false" data-src="https://www.youtube.com/embed/i5ruUQHKRYQ" data-bs-target="#modal2"><!--Pop out Youtube Video Start-->
                             <img src="Images/plus.png" alt="Git Hub" height="80" width="80">
                         </button>
                         <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -366,8 +366,16 @@
                     </div>
                 </div><!--Carousel Item End-->
             </div> <!--Carousel Inner End-->
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div> <!--Carousel End-->
+
     </div>
 
     <hr>
